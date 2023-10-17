@@ -4,3 +4,10 @@ Bismillah
 erDiagram 
 CAR || --o {Supir : ya
 ORG || --o {Supir : tidak
+---
+title: Order example
+---
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
