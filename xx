@@ -1,0 +1,6 @@
+## 1.1 Latar Belakang
+Bismillah
+```mermaid
+erDiagram 
+CAR || --o {Supir : ya
+ORG || --o {Supir : tidak
